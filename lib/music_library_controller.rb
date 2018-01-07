@@ -67,6 +67,7 @@ class MusicLibraryController
     input = gets.strip
     artist = Artist.find_by_name(input)
     artist.songs.sort {|a,b| a.name <=> b.name}
+    binding.pry
   end
 
   def list_songs_by_genre
@@ -76,5 +77,4 @@ class MusicLibraryController
 
   def play_song
   end
-  binding.pry
 end
