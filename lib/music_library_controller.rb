@@ -9,4 +9,5 @@ class MusicLibraryController
     puts "Welcome, heifer."
     puts "Gimme some input, bro."
     gets.input
+  end
 end
