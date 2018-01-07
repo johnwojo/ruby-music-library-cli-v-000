@@ -32,7 +32,6 @@ class MusicLibraryController
     when input == 'play song'
       self.play_song
     end
-    end
   end
 
 
