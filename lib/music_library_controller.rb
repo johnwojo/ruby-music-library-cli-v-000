@@ -1,4 +1,5 @@
 class MusicLibraryController
+  attr_accessor :inptu
 
   def initialize(path = "./db/mp3s")
     music_importer = MusicImporter.new(path)
