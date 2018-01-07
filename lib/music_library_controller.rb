@@ -21,16 +21,22 @@ class MusicLibraryController
     input = gets.strip
     when input == 'list songs'
       self.list_songs
+    end
     when input == 'list artists'
       self.list_artists
+    end
     when input == 'list genres'
       self.list_genres
+    end
     when input == 'list artist'
       self.llist_songs_by_artist
+    end
     when input == 'list genre'
       self.list_songs_by_genre
+    end
     when input == 'play song'
       self.play_song
+    end
     end
   end
 
