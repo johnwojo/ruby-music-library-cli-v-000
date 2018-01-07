@@ -36,7 +36,7 @@ class MusicLibraryController
 
     elsif input == 'play song'
       self.play_song
-    end
+      end
     end
   end
 
