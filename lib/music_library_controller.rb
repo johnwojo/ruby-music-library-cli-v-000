@@ -5,4 +5,6 @@ class MusicLibraryController
     music_importer.import
   end
 
+  def call
+    puts "Welcome, heifer."
 end
