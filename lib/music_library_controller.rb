@@ -29,7 +29,7 @@ class MusicLibraryController
       self.list_genres
 
     elsif input == 'list artist'
-      self.llist_songs_by_artist
+      self.list_songs_by_artist
 
     elsif input == 'list genre'
       self.list_songs_by_genre
