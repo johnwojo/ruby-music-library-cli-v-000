@@ -8,6 +8,6 @@ class MusicLibraryController
   def call
     puts "Welcome to your music library!"
     puts "Gimme some input, bro."
-    gets.input
+    gets
   end
 end
