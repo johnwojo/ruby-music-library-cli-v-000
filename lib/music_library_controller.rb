@@ -36,7 +36,7 @@ class MusicLibraryController
 
 
   def list_songs
-    if self.input == "list songs"
+     == "list songs"
       puts "This is working"
     end
   end
