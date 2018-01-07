@@ -29,6 +29,8 @@ class MusicLibraryController
       self.llist_songs_by_artist
     when input == 'list genre'
       self.list_songs_by_genre
+    when input == 'play song'
+      self.play_song
     end
     end
   end
