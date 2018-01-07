@@ -6,7 +6,7 @@ class MusicLibraryController
   end
 
   def call
-    input = "please continue"
+    input = "x"
     until input == "exit"
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
