@@ -42,8 +42,7 @@ class MusicLibraryController
 
 
   def list_songs
-    Song.all
-    binding.pry
+    Song.all.sort {|a,b|}
   end
 
   def list_artists
