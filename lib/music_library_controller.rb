@@ -23,7 +23,8 @@ class MusicLibraryController
     self.input = gets.strip
     end
   end
-binding.pry
+
+  
   def list_songs
     if self.input == "list songs"
       puts "This is working"
