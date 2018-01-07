@@ -25,8 +25,6 @@ class MusicLibraryController
       self.list_artists
     when input == 'list genres'
       self.list_genres
-    when input == 'list songs'
-      self.list_songs_by_artist
     when input == 'list artist'
       self.llist_songs_by_artist
     when input == 'list genre'
