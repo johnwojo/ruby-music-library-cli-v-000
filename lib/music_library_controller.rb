@@ -24,6 +24,7 @@ class MusicLibraryController
   def list_songs
     if input == "list songs"
       MusicLibraryController.new(path = "./db/mp3s").sort
+    end
   end
 
   def list_artists
