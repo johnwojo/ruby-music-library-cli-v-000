@@ -38,7 +38,6 @@ class MusicLibraryController
   def list_songs
     "list songs"
       puts "This is working"
-    end
   end
 
   def list_artists
