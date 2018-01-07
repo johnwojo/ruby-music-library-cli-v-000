@@ -1,9 +1,7 @@
 require 'pry'
 class MusicLibraryController
-  attr_accessor :input
 
   def initialize(path = "./db/mp3s")
-    @input = input
     music_importer = MusicImporter.new(path)
     music_importer.import
   end
@@ -24,7 +22,7 @@ class MusicLibraryController
     end
   end
 
-  
+
   def list_songs
     if self.input == "list songs"
       puts "This is working"
