@@ -1,3 +1,4 @@
+require 'pry'
 class MusicLibraryController
   attr_accessor :input
 
@@ -22,7 +23,7 @@ class MusicLibraryController
     self.input = gets.strip
     end
   end
-
+binding.pry
   def list_songs
     if self.input == "list songs"
       puts "This is working"
