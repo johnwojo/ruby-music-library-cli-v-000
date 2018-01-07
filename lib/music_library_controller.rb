@@ -4,3 +4,5 @@ class MusicLibraryController
     importer = MusicImporter.new(path)
     impoter.import
   end
+
+  
