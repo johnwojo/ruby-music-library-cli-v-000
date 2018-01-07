@@ -25,7 +25,7 @@ class MusicLibraryController
 
   def list_songs
     if self.input == "list songs"
-      MusicLibraryController.new(path = "./db/mp3s")
+      puts "This is working"
     end
   end
 
