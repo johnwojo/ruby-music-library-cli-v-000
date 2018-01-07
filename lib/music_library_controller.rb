@@ -26,11 +26,11 @@ class MusicLibraryController
     when input == 'list genres'
       self.list_genres
     when input == 'list songs'
-      self.list_songs
+      self.list_songs_by_artist
     when input == 'list artist'
-      self.list_artists
+      self.llist_songs_by_artist
     when input == 'list genre'
-      self.list_genres
+      self.list_songs_by_genre
     end
     end
   end
