@@ -31,6 +31,7 @@ class MusicLibraryController
       self.list_songs_by_genre
     when input == 'play song'
       self.play_song
+    end
   end
 
 
