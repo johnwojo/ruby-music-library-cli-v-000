@@ -22,7 +22,8 @@ class MusicLibraryController
   end
 
   def list_songs
-
+    if input == "list songs"
+      
   end
 
   def list_artists
@@ -40,5 +41,5 @@ class MusicLibraryController
   def play_song
   end
 
-  
+
 end
